@@ -37,7 +37,7 @@ tr = Translator()
 @bot.on_message(filters.command("start"))
 async def startmsg(_, message):
     await message.reply_video(video="https://telegra.ph/file/b8f0cbdf67943328459d2.mp4", 
-    caption=f"Hello {message.from_user.mention}. \nI'm AI Chat bot made by Tinura Dinith by Using Affiliateplus API, You can chat with me here.")
+    caption=f"Hello {message.from_user.mention}. \nI'm AI Chat bot ~~made~~ by Himanshu Shivhare by Using Affiliateplus API, You can chat with me here.")
 
 @bot.on_message(
     filters.text 
